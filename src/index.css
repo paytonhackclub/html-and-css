@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Roboto');
+
+/* All, by default, are serif fonts */
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* The header block, makes it indented */
+.block
+{
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.container
+{
+    margin-left: 7%;
+    width: 70%;
+}
+
+pre
+{
+    background-color: #3d3d3d;
+    color: #ccc;
+    padding: 30px 0 10px 0;
+    width: 100%;
+}
+
+.container hr
+{
+    height: 2.5px;
+    border-style: none;
+    background-color: black;
+}
+
+/* Types of headers */
+.main-header
+{
+  padding: 0;
+  margin: 5px 0;
+  border-bottom: 2px solid black;
+}
+
+.sub-header
+{
+  margin: 0; 
+  color: tomato;
+  font-style: italic;
+}
+
+/* All topics have the following styles -- some or colored though  */
+.topic-header
+{
+  font-size: 200%;
+  text-transform: uppercase;
+  border-bottom: 1px solid tomato; 
+  display: inline;
+  padding: 0 20px 0 0;
+}
+
+.topic-header, .css
+{
+  border-bottom: 1px solid cyan; 
+}
+
+.topic-header, .links
+{
+  border-bottom: 1px solid #ccc; 
+}
+
+/* Text colors */
+.cyan
+{
+    color: #00e5e5;
+}
+
+.red
+{
+    color: red;
+}
+
+/* How I define how my lists work.  */
+ul
+{
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul li:before
+{
+  content: "▸ ";
+}
+
+/* All body text -- makes it a serif font */
+.text
+{
+  font-family: 'Crimson Text', serif;
+}
+
+ul.text li a, ul.text li a:visited 
+{
+  color: black;
+  font-style: normal;
+}
